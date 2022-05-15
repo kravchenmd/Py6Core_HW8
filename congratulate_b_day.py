@@ -12,7 +12,7 @@ def congratulate(users: list) -> None:
     b_day_dict = {}
 
     today_date = datetime.today()
-    # today_date += timedelta(days=30)
+    # today_date += timedelta(days=1)
     # print(f"Today is {today_date.date()}")
 
     next_monday_date = today_date + timedelta(days=7 - today_date.weekday())
